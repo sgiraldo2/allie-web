@@ -1,0 +1,80 @@
+.about {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../../assets/dotsBackground.png");
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    background-color: #242424;
+}
+
+.about .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.about .top-container {
+    margin-top: 2rem;
+    color: #f6f6f6;
+    width: 100%;
+}
+
+.about .middle-container {
+    color: #f6f6f6;
+    width: 100%;
+    max-width: 95%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1rem;
+    /* border: 3px solid #73AD21; */
+}
+
+.about .left-middle-container {
+    color: #f6f6f6;
+    width: 100%;
+    max-width: 65%;
+    margin-bottom: 4rem;
+    /* border: 3px solid #73AD21; */
+}
+
+.about .right-middle-container {
+    color: #f6f6f6;
+    width: 100%;
+    max-width: 30%;
+    margin-bottom: 4rem;
+    /* border: 3px solid #73AD21; */
+}
+
+.about figure {
+    background-color: #242424;
+    border: 1px #cccccc solid;
+    padding: 6px;
+    margin: auto;
+}
+  
+.about figcaption {
+    color: lightgray;
+    padding: 4px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.about .bottom-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-width:540px) {
+    .about .container .bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+}
